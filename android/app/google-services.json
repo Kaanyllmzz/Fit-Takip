@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69660124589",
+    "project_id": "fit-takip-dev",
+    "storage_bucket": "fit-takip-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69660124589:android:2d4f9d9260f94a46322d24",
+        "android_client_info": {
+          "package_name": "com.example.mobil_proje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvp5w7dwEvGQXWkm2KA0vMveyOEVmKA-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

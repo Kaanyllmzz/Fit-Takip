@@ -1,0 +1,46 @@
+name: mobil_proje
+description: Kişisel Sağlık ve Spor Takip Uygulaması
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.4
+  firebase_messaging: ^14.7.8
+
+  # Diğerleri
+  flutter_local_notifications: ^17.0.0
+  fl_chart: ^0.66.2
+  provider: ^6.0.5
+  health: ^12.2.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  http: 1.2.0
+  device_calendar: ^4.3.3
+  timezone: ^0.9.0
+  audioplayers: ^5.2.1
+  package_info_plus: ^5.0.1
+
+  # Harita ve konum
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  permission_handler: ^11.3.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/motivation.mp3
